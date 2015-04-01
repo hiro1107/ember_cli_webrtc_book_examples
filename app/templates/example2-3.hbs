@@ -1,0 +1,16 @@
+<div id="mainDiv">
+
+  <h1><code>getUserMedia()</code>: playing with video constraints</h1>
+
+  <p>Click one of the below buttons to change video resolution...</p>
+
+  <div id="buttons">
+    <button id="qvga" {{action "qvgaStart"}}>320x240px</button>
+    <button id="vga" {{action "vgaStart"}}>640x480px</button>
+    <button id="hd" {{action "hdStart"}}>1280x720px</button>
+  </div>
+
+  <p id="dimensions"></p>
+
+  <video autoplay></video>
+</div>
