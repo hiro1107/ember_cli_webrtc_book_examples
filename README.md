@@ -1,3 +1,3 @@
-# Livechat
+# Ember CLI WebRTC Book Examples
 
-Testing Example2-1 of WebRTC Book with Ember CLI.
+Implement examples in the book "Real-Time Communication with WebRTC - O'Reilly Media" with Ember CLI.
