@@ -1,0 +1,31 @@
+<table border="1" width="100%">
+  <tr>
+    <th>
+      Local video
+    </th>
+    <th>
+      'Remote' video
+    </th>   
+  </tr>
+  <tr>
+    <td>
+      <video id="localVideo" autoplay muted {{bind-attr src=localVideoSrc}}></video>
+    </td>
+    <td>
+      <video id="remoteVideo" autoplay muted {{bind-attr src=remoteVideoSrc}}></video>           
+    </td> 
+  </tr>
+  <tr>
+    <td align="center">
+      <div>
+        <button id="startButton" {{action 'start'}} {{bind-attr disabled=startButtonDisabled}}>Start</button>
+        <button id="callButton" {{action 'call'}} {{bind-attr disabled=callButtonDisabled}}>Call</button>
+        <button id="hangupButton" {{action 'hangup'}} {{bind-attr disabled=hangupButtonDisabled}}>Hang Up</button>
+      </div>
+      
+    </td>
+    <td>
+      <!-- void -->
+    </td>
+  </tr>
+</table>
